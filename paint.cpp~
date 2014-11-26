@@ -11,7 +11,7 @@ bool flagx=0,flagy=0,keyd=0,feraser=0;
 int flagd=0,thickd=1,thicke=1,rcolor=0,gcolor=0,bcolor=0,fmode=1,fpaint=0,fshape=0;
 float startx=0.0,starty=0.0;
 
-Mat img(Size(1000, 1000), CV_8UC3, Scalar(255, 255, 255));
+Mat img(Size(2000, 2000), CV_8UC3, Scalar(255, 255, 255));
 //Mat img;
 Mat img2;
 //CvScalar newColor = CV_RGB(rcolor,gcolor,bcolor);
